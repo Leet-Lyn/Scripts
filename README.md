@@ -1,2 +1,2 @@
-# Python-Scripts
-一些自用的 Python 脚本。
+# Scripts
+一些自用的脚本。
