@@ -5,9 +5,9 @@ import os
 import comtypes.client
 
 # 询问用户源文件夹路径。
-source_folder = input("请输入源文件夹路径（按回车则为当前文件夹）：")
+source_folder = input("请输入源文件夹路径（按回车则为“T:\Temps\”）：")
 if source_folder == "":
-    source_folder = os.path.abspath(".")
+    source_folder = "T:\\Temps\\"
 
 # 询问用户目标文件夹路径。
 target_folder = input("请输入目标文件夹路径（按回车则为“T:\XXX\”）：")
